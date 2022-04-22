@@ -7,7 +7,8 @@ In this mode, Tackle inspects the OpenMP affinity specified by user and reports 
 - Threads are floating among core siblings AKA Hyper-Threading cores
 - Over-subscription of cpus
 - Threads crossing socket boundary
-Reports the Thread->Core affinity map as GraphViz file output.
+
+Reports the Thread->Core affinity map as GraphViz dot output file (use, ```dot -Tpng tackle_affinity_map.gv > output.png``` to view it as image)
 
 ## Advisor:
 
