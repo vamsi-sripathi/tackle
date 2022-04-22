@@ -2,7 +2,7 @@
 
 set -x 
 
-TACKLE_SRC=../src/ && cd ${TACKLE_SRC} && make && TACKLE_BINARY=./tackle
+TACKLE_SRC=../ && cd ${TACKLE_SRC} && make && TACKLE_BINARY=./tackle
 
 function test_checker_mode()
 {
