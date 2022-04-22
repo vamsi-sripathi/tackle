@@ -1,0 +1,413 @@
+digraph AffinityMap {
+newrank=true;
+subgraph cluster_sock_0 {
+label="Socket-0";
+style=filled; color=lightblue; node [shape=box,style=filled,color=white];
+subgraph cluster_core0 {
+label="CORE-0";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-0" ->  "CPU-56"  [style=invis];
+}
+subgraph cluster_core1 {
+label="CORE-1";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-1" ->  "CPU-57"  [style=invis];
+}
+subgraph cluster_core2 {
+label="CORE-2";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-2" ->  "CPU-58"  [style=invis];
+}
+subgraph cluster_core3 {
+label="CORE-3";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-3" ->  "CPU-59"  [style=invis];
+}
+subgraph cluster_core4 {
+label="CORE-4";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-4" ->  "CPU-60"  [style=invis];
+}
+subgraph cluster_core5 {
+label="CORE-5";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-5" ->  "CPU-61"  [style=invis];
+}
+subgraph cluster_core6 {
+label="CORE-6";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-6" ->  "CPU-62"  [style=invis];
+}
+subgraph cluster_core7 {
+label="CORE-7";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-7" ->  "CPU-63"  [style=invis];
+}
+subgraph cluster_core8 {
+label="CORE-8";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-8" ->  "CPU-64"  [style=invis];
+}
+subgraph cluster_core9 {
+label="CORE-9";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-9" ->  "CPU-65"  [style=invis];
+}
+subgraph cluster_core10 {
+label="CORE-10";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-10" ->  "CPU-66"  [style=invis];
+}
+subgraph cluster_core11 {
+label="CORE-11";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-11" ->  "CPU-67"  [style=invis];
+}
+subgraph cluster_core12 {
+label="CORE-12";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-12" ->  "CPU-68"  [style=invis];
+}
+subgraph cluster_core13 {
+label="CORE-13";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-13" ->  "CPU-69"  [style=invis];
+}
+subgraph cluster_core14 {
+label="CORE-14";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-14" ->  "CPU-70"  [style=invis];
+}
+subgraph cluster_core15 {
+label="CORE-15";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-15" ->  "CPU-71"  [style=invis];
+}
+subgraph cluster_core16 {
+label="CORE-16";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-16" ->  "CPU-72"  [style=invis];
+}
+subgraph cluster_core17 {
+label="CORE-17";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-17" ->  "CPU-73"  [style=invis];
+}
+subgraph cluster_core18 {
+label="CORE-18";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-18" ->  "CPU-74"  [style=invis];
+}
+subgraph cluster_core19 {
+label="CORE-19";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-19" ->  "CPU-75"  [style=invis];
+}
+subgraph cluster_core20 {
+label="CORE-20";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-20" ->  "CPU-76"  [style=invis];
+}
+subgraph cluster_core21 {
+label="CORE-21";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-21" ->  "CPU-77"  [style=invis];
+}
+subgraph cluster_core22 {
+label="CORE-22";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-22" ->  "CPU-78"  [style=invis];
+}
+subgraph cluster_core23 {
+label="CORE-23";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-23" ->  "CPU-79"  [style=invis];
+}
+subgraph cluster_core24 {
+label="CORE-24";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-24" ->  "CPU-80"  [style=invis];
+}
+subgraph cluster_core25 {
+label="CORE-25";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-25" ->  "CPU-81"  [style=invis];
+}
+subgraph cluster_core26 {
+label="CORE-26";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-26" ->  "CPU-82"  [style=invis];
+}
+subgraph cluster_core27 {
+label="CORE-27";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-27" ->  "CPU-83"  [style=invis];
+}
+"CPU-0" -> "CPU-1" -> "CPU-2" -> "CPU-3" -> "CPU-4" -> "CPU-5" -> "CPU-6" -> "CPU-7" -> "CPU-8" -> "CPU-9" -> "CPU-10" -> "CPU-11" -> "CPU-12" -> "CPU-13"  [style=invis];
+"CPU-14" -> "CPU-15" -> "CPU-16" -> "CPU-17" -> "CPU-18" -> "CPU-19" -> "CPU-20" -> "CPU-21" -> "CPU-22" -> "CPU-23" -> "CPU-24" -> "CPU-25" -> "CPU-26" -> "CPU-27"  [style=invis];
+}
+subgraph cluster_sock_1 {
+label="Socket-1";
+style=filled; color=lightblue; node [shape=box,style=filled,color=white];
+subgraph cluster_core28 {
+label="CORE-28";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-28" ->  "CPU-84"  [style=invis];
+}
+subgraph cluster_core29 {
+label="CORE-29";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-29" ->  "CPU-85"  [style=invis];
+}
+subgraph cluster_core30 {
+label="CORE-30";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-30" ->  "CPU-86"  [style=invis];
+}
+subgraph cluster_core31 {
+label="CORE-31";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-31" ->  "CPU-87"  [style=invis];
+}
+subgraph cluster_core32 {
+label="CORE-32";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-32" ->  "CPU-88"  [style=invis];
+}
+subgraph cluster_core33 {
+label="CORE-33";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-33" ->  "CPU-89"  [style=invis];
+}
+subgraph cluster_core34 {
+label="CORE-34";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-34" ->  "CPU-90"  [style=invis];
+}
+subgraph cluster_core35 {
+label="CORE-35";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-35" ->  "CPU-91"  [style=invis];
+}
+subgraph cluster_core36 {
+label="CORE-36";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-36" ->  "CPU-92"  [style=invis];
+}
+subgraph cluster_core37 {
+label="CORE-37";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-37" ->  "CPU-93"  [style=invis];
+}
+subgraph cluster_core38 {
+label="CORE-38";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-38" ->  "CPU-94"  [style=invis];
+}
+subgraph cluster_core39 {
+label="CORE-39";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-39" ->  "CPU-95"  [style=invis];
+}
+subgraph cluster_core40 {
+label="CORE-40";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-40" ->  "CPU-96"  [style=invis];
+}
+subgraph cluster_core41 {
+label="CORE-41";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-41" ->  "CPU-97"  [style=invis];
+}
+subgraph cluster_core42 {
+label="CORE-42";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-42" ->  "CPU-98"  [style=invis];
+}
+subgraph cluster_core43 {
+label="CORE-43";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-43" ->  "CPU-99"  [style=invis];
+}
+subgraph cluster_core44 {
+label="CORE-44";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-44" ->  "CPU-100"  [style=invis];
+}
+subgraph cluster_core45 {
+label="CORE-45";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-45" ->  "CPU-101"  [style=invis];
+}
+subgraph cluster_core46 {
+label="CORE-46";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-46" ->  "CPU-102"  [style=invis];
+}
+subgraph cluster_core47 {
+label="CORE-47";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-47" ->  "CPU-103"  [style=invis];
+}
+subgraph cluster_core48 {
+label="CORE-48";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-48" ->  "CPU-104"  [style=invis];
+}
+subgraph cluster_core49 {
+label="CORE-49";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-49" ->  "CPU-105"  [style=invis];
+}
+subgraph cluster_core50 {
+label="CORE-50";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-50" ->  "CPU-106"  [style=invis];
+}
+subgraph cluster_core51 {
+label="CORE-51";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-51" ->  "CPU-107"  [style=invis];
+}
+subgraph cluster_core52 {
+label="CORE-52";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-52" ->  "CPU-108"  [style=invis];
+}
+subgraph cluster_core53 {
+label="CORE-53";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-53" ->  "CPU-109"  [style=invis];
+}
+subgraph cluster_core54 {
+label="CORE-54";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-54" ->  "CPU-110"  [style=invis];
+}
+subgraph cluster_core55 {
+label="CORE-55";
+style=filled; color=violet; node [shape=box,style=filled,color=white];
+rank=same;
+ "CPU-55" ->  "CPU-111"  [style=invis];
+}
+"CPU-28" -> "CPU-29" -> "CPU-30" -> "CPU-31" -> "CPU-32" -> "CPU-33" -> "CPU-34" -> "CPU-35" -> "CPU-36" -> "CPU-37" -> "CPU-38" -> "CPU-39" -> "CPU-40" -> "CPU-41"  [style=invis];
+"CPU-42" -> "CPU-43" -> "CPU-44" -> "CPU-45" -> "CPU-46" -> "CPU-47" -> "CPU-48" -> "CPU-49" -> "CPU-50" -> "CPU-51" -> "CPU-52" -> "CPU-53" -> "CPU-54" -> "CPU-55"  [style=invis];
+}
+subgraph cluster_wid_0 {
+style=filled; color=forestgreen;
+node [shape=box,style=filled,color=grey];
+edge[arrowhead=vee, arrowtail=inv, arrowsize=.7, color=maroon, fontsize=10, fontcolor=navy];
+label="WID[0]";
+"[0][0]" -> "CPU-0";
+"[0][1]" -> "CPU-1";
+"[0][2]" -> "CPU-2";
+"[0][3]" -> "CPU-3";
+"[0][4]" -> "CPU-4";
+"[0][5]" -> "CPU-5";
+"[0][6]" -> "CPU-6";
+"[0][7]" -> "CPU-7";
+"[0][8]" -> "CPU-8";
+"[0][9]" -> "CPU-9";
+"[0][10]" -> "CPU-10";
+"[0][11]" -> "CPU-11";
+"[0][12]" -> "CPU-12";
+"[0][13]" -> "CPU-13";
+"[0][14]" -> "CPU-14";
+"[0][15]" -> "CPU-15";
+"[0][16]" -> "CPU-16";
+"[0][17]" -> "CPU-17";
+"[0][18]" -> "CPU-18";
+"[0][19]" -> "CPU-19";
+"[0][20]" -> "CPU-20";
+"[0][21]" -> "CPU-21";
+"[0][22]" -> "CPU-22";
+"[0][23]" -> "CPU-23";
+"[0][24]" -> "CPU-24";
+"[0][25]" -> "CPU-25";
+"[0][26]" -> "CPU-26";
+"[0][27]" -> "CPU-27";
+"[0][28]" -> "CPU-28";
+"[0][29]" -> "CPU-29";
+"[0][30]" -> "CPU-30";
+"[0][31]" -> "CPU-31";
+"[0][32]" -> "CPU-32";
+"[0][33]" -> "CPU-33";
+"[0][34]" -> "CPU-34";
+"[0][35]" -> "CPU-35";
+"[0][36]" -> "CPU-36";
+"[0][37]" -> "CPU-37";
+"[0][38]" -> "CPU-38";
+"[0][39]" -> "CPU-39";
+"[0][40]" -> "CPU-40";
+"[0][41]" -> "CPU-41";
+"[0][42]" -> "CPU-42";
+"[0][43]" -> "CPU-43";
+"[0][44]" -> "CPU-44";
+"[0][45]" -> "CPU-45";
+"[0][46]" -> "CPU-46";
+"[0][47]" -> "CPU-47";
+"[0][48]" -> "CPU-48";
+"[0][49]" -> "CPU-49";
+"[0][50]" -> "CPU-50";
+"[0][51]" -> "CPU-51";
+"[0][52]" -> "CPU-52";
+"[0][53]" -> "CPU-53";
+"[0][54]" -> "CPU-54";
+"[0][55]" -> "CPU-55";
+}
+}

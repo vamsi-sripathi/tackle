@@ -1,0 +1,7 @@
+BasedOnStyle: Google
+BreakBeforeBraces: Linux
+#IndentWidth: 4
+#ColumnLimit: 100
+#AlignConsecutiveDeclarations: true
+#AlignConsecutiveAssignments: true
+#PointerAlignment: Right
